@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://aeditx03.github.io/resources/StreamCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-image:url('https://graph.org/file/d6d33c80ff15a6d9b1f13.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        
+        .header h2 {
+            position: top; /* Adjust the top margin as needed */
+            margin-bottom: 20px; /* Add margin bottom to create space */
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: shadowPulse 2s infinite alternate;
+        }
+        
+        .content {
+    flex: 1; /* Allow the content to grow to fill available space */
+}
+        .login-btn {
+            background-color: red;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            margin-right: 10px; /* Added margin for spacing */
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            color: #fff;
+            font-size: 14px;
+            /*position: fixed;*/
+            bottom: 0; /* Align to the bottom */
+            z-index: 999; /* Ensure the footer is above other content */
+        }
+        
+        .text {
+            text-align: center;
+            font-size: 13px;
+            color: #fff;
+        }
+        
+        
+    </style>
+</head>
+<body>
+<div class="header">
+        <h2><a href="https://t.me/QuinxPremium">Quinx Premium</a></h2>
+    </div><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br>
+<div class="text" style="text-align: center;">
+    <h2 style="font-weight: 600;">
+        If you want to use this website,
+        you must agree to our terms and conditions.
+    </h2>
+</div><br>
+<div class="text">
+        <h5 class="text"><a href="https://t.me/QuinxPremium/43" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow: 1px 1px 1px black;">Read our terms and conditions</span></a></h5>
+    </div>
+    
+<br><br>
+    
+        <button type="submit" class="login-btn" onclick="redirectLogin()">Login</button>
+    </div>
+      
+    
+    
+<footer>
+        <div class="copyright ">
+            <h4 class="text-center">Copyright © 2024 <a href="https://t.me/QuinxPremium/43" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow: 1px 1px 1px black;">Quinx</span></a>, All Rights Reserved.</h4>
+        </div>
+    </footer>
+    <script>
+        function redirectLogin() {
+            // Redirect to index.html page
+            window.location.href = './login';
+        }
+    </script>
+</body>
+</html>
